@@ -3,8 +3,8 @@ class Procmux < Formula
 
   desc "a TUI utility for running multiple commands in parallel in easily switchable terminals"
   homepage "https://github.com/napisani/procmux"
-  url "https://files.pythonhosted.org/packages/0d/7c/6968f6d935eeb505cd5d40a0251dba6cf6d49e0b276b74ff841fb78ff89b/procmux-1.0.3.tar.gz"
-  sha256 "5abb8b89a5a272875b7e357b5c78b66a06f3fffd53ecee69f8c15200971ac26c"
+  url "https://files.pythonhosted.org/packages/17/cf/41d751d6b15f1147ddf523f5b933a55e7f58e99691c3c09366b71a6aa1e6/procmux-1.0.4.tar.gz"
+  sha256 "ea18a5767ad95c89149b6f8c4e3e7b928e690a8374dcca5888349a34aa120ad5"
 
   depends_on "python3"
 
