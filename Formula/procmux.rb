@@ -1,10 +1,10 @@
 class Procmux < Formula
   include Language::Python::Virtualenv
 
-  desc "a TUI utility for running multiple commands in parallel in easily switchable terminals"
+  desc "Shiny new formula"
   homepage "https://github.com/napisani/procmux"
-  url "https://files.pythonhosted.org/packages/a7/18/25dd0012d499705c32e1a8943c54c14933458027e14481163b965ca702ff/procmux-1.0.10.tar.gz"
-  sha256 "2072827e2f8be019d3cebfca8d3f9969c4bca06a1223dad0232b4d6f17dfd38d"
+  url "https://files.pythonhosted.org/packages/4c/5c/ad660695654713e568ccfcb7b8dba96f2aa649089dc54dce164db9213920/procmux-1.0.11.tar.gz"
+  sha256 "c000b35e6d110649845be858f6e63a9c50cb1b3b26b7ea6eb2626319cace15ab"
 
   depends_on "python3"
 
@@ -99,6 +99,6 @@ class Procmux < Formula
   end
 
   test do
-    assert_match true, true 
+    false
   end
 end
