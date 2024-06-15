@@ -3,8 +3,8 @@ class Procmux < Formula
 
   desc "Shiny new formula"
   homepage "https://github.com/napisani/procmux"
-  url "https://files.pythonhosted.org/packages/4c/5c/ad660695654713e568ccfcb7b8dba96f2aa649089dc54dce164db9213920/procmux-1.0.11.tar.gz"
-  sha256 "c000b35e6d110649845be858f6e63a9c50cb1b3b26b7ea6eb2626319cace15ab"
+  url "https://files.pythonhosted.org/packages/3a/03/8cd60b9d05e16deb58fac567f65f5e47f746967016407c9fe0cb82da6132/procmux-1.0.12.tar.gz"
+  sha256 "d0eafbb6515f09dd48d2ed54b87580997172c53791d3946bd9d67f30352970bf"
 
   depends_on "python3"
 
