@@ -3,8 +3,8 @@ class Procmux < Formula
 
   desc "Shiny new formula"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/15/35/12c656f2152dd278d218acc64cded090a0ad9093e5846a10cf6df9255f28/procmux-2.0.1.tar.gz"
-  sha256 "a2c2f238718d9be3cf30d67766b2fe3890f50626686272ae63ba026fea521a03"
+  url "https://files.pythonhosted.org/packages/82/fb/9351fbfb183053c0bdcf4515eb810d801831a81c8a070eac643c2d4a6726/procmux-2.0.2.tar.gz"
+  sha256 "72e7c08fa2ad0fc8fe33dde1bea9c10d4fdc79c3d25dcfcaf12721cb1b459b02"
 
   depends_on "python3"
 
@@ -13,24 +13,9 @@ class Procmux < Formula
     sha256 "1c97078a80c814273a76b2a298a932eb681c87415c11dee0a6921de7f1b02c3e"
   end
 
-  resource "HiYaPyCo" do
-    url "https://files.pythonhosted.org/packages/f7/ff/5ee64255902b495b5f385e05018faa0819d1bcde112e6e2b33df2b0db781/HiYaPyCo-0.5.1.tar.gz"
-    sha256 "05e485080a323a8105f89db0a7278c458928d6e18858401501cb3e0fef0ee804"
-  end
-
   resource "iniconfig" do
     url "https://files.pythonhosted.org/packages/d7/4b/cbd8e699e64a6f16ca3a8220661b5f83792b3017d0f79807cb8708d33913/iniconfig-2.0.0.tar.gz"
     sha256 "2d91e135bf72d31a410b17c16da610a82cb55f6b0477d1a902134b24a455b8b3"
-  end
-
-  resource "Jinja2" do
-    url "https://files.pythonhosted.org/packages/af/92/b3130cbbf5591acf9ade8708c365f3238046ac7cb8ccba6e81abccb0ccff/jinja2-3.1.5.tar.gz"
-    sha256 "8fefff8dc3034e27bb80d67c671eb8a9bc424c0ef4c0826edbff304cceff43bb"
-  end
-
-  resource "MarkupSafe" do
-    url "https://files.pythonhosted.org/packages/87/5b/aae44c6655f3801e81aa3eef09dbbf012431987ba564d7231722f68df02d/MarkupSafe-2.1.5.tar.gz"
-    sha256 "d283d37a890ba4c1ae73ffadf8046435c76e7bc2247bbb63c00bd1a709c6544b"
   end
 
   resource "packaging" do
@@ -66,11 +51,6 @@ class Procmux < Formula
   resource "pytest" do
     url "https://files.pythonhosted.org/packages/a4/a7/8c63a4966935b0d0b039fd67ebf2e1ae00f1af02ceb912d838814d772a9a/pytest-7.1.3.tar.gz"
     sha256 "4f365fec2dff9c1162f834d9f18af1ba13062db0c708bf7b946f8a5c76180c39"
-  end
-
-  resource "PyYAML" do
-    url "https://files.pythonhosted.org/packages/54/ed/79a089b6be93607fa5cdaedf301d7dfb23af5f25c398d5ead2525b063e17/pyyaml-6.0.2.tar.gz"
-    sha256 "d584d9ec91ad65861cc08d42e834324ef890a082e591037abe114850ff7bbc3e"
   end
 
   resource "six" do
