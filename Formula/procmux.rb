@@ -3,8 +3,8 @@ class Procmux < Formula
 
   desc "Shiny new formula"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/82/fb/9351fbfb183053c0bdcf4515eb810d801831a81c8a070eac643c2d4a6726/procmux-2.0.2.tar.gz"
-  sha256 "72e7c08fa2ad0fc8fe33dde1bea9c10d4fdc79c3d25dcfcaf12721cb1b459b02"
+  url "https://files.pythonhosted.org/packages/c1/c8/93ea9e5ffbede1999e96bb7bf6ad7d48870b8438ce55b4f3863ec9688ad8/procmux-2.0.3.tar.gz"
+  sha256 "e91faee78f1411e5dd87e1dc363338e5e6307f1c144c12dad1c659b97f0c2271"
 
   depends_on "python3"
 
@@ -51,6 +51,11 @@ class Procmux < Formula
   resource "pytest" do
     url "https://files.pythonhosted.org/packages/a4/a7/8c63a4966935b0d0b039fd67ebf2e1ae00f1af02ceb912d838814d772a9a/pytest-7.1.3.tar.gz"
     sha256 "4f365fec2dff9c1162f834d9f18af1ba13062db0c708bf7b946f8a5c76180c39"
+  end
+
+  resource "PyYAML" do
+    url "https://files.pythonhosted.org/packages/54/ed/79a089b6be93607fa5cdaedf301d7dfb23af5f25c398d5ead2525b063e17/pyyaml-6.0.2.tar.gz"
+    sha256 "d584d9ec91ad65861cc08d42e834324ef890a082e591037abe114850ff7bbc3e"
   end
 
   resource "six" do
